@@ -1,0 +1,18 @@
+2025-02-26 09:58:44.997 [info] Extension host with pid 705 started
+2025-02-26 09:58:44.997 [error] Error: EEXIST: file already exists, open '/home/anhken/.vscode-server/data/User/workspaceStorage/f06f23f25d99f6a44eebb22638ef81e3/vscode.lock'
+2025-02-26 09:58:45.027 [info] Lock '/home/anhken/.vscode-server/data/User/workspaceStorage/f06f23f25d99f6a44eebb22638ef81e3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-02-26 09:58:45.034 [info] Lock '/home/anhken/.vscode-server/data/User/workspaceStorage/f06f23f25d99f6a44eebb22638ef81e3/vscode.lock': The pid 774 appears to be gone.
+2025-02-26 09:58:45.041 [info] Lock '/home/anhken/.vscode-server/data/User/workspaceStorage/f06f23f25d99f6a44eebb22638ef81e3/vscode.lock': Deleting a stale lock.
+2025-02-26 09:58:45.102 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-26 09:58:45.104 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2025-02-26 09:58:45.104 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-02-26 09:58:46.030 [info] Lock '/home/anhken/.vscode-server/data/User/workspaceStorage/f06f23f25d99f6a44eebb22638ef81e3/vscode.lock': Lock acquired.
+2025-02-26 09:58:46.105 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-26 09:58:46.399 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-26 09:58:46.400 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-26 09:58:47.604 [info] Eager extensions activated
+2025-02-26 09:58:47.604 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 09:58:47.605 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 09:58:49.240 [error] Error: Launching Jedi language server using python failed, see output.
+	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

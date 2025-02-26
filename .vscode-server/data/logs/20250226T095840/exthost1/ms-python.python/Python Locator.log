@@ -1,0 +1,19 @@
+2025-02-26 09:58:47.886 [info] Starting Python Locator /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/python-env-tools/bin/pet server
+2025-02-26 09:58:47.919 [info] Discovered env: /bin/python3
+2025-02-26 09:58:47.931 [info] Discovered env: /usr/bin/python3
+2025-02-26 09:58:47.943 [info] Env ("/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", prefix: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv", version: "3.10.12.final.0", is64_bit: true, symlinks: Some(["/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3.10"]) } and reported as None
+2025-02-26 09:58:47.943 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-26 09:58:55.674 [info] Locator Conda took 9.110143486s
+2025-02-26 09:58:55.674 [info] Locator Homebrew took 47.332µs
+2025-02-26 09:58:55.675 [info] Locator LinuxGlobal took 238.022818ms
+2025-02-26 09:58:55.675 [info] Locator PipEnv took 38.086µs
+2025-02-26 09:58:55.675 [info] Locator Poetry took 260.454967ms
+2025-02-26 09:58:55.675 [info] Locator PyEnv took 248.698348ms
+2025-02-26 09:58:55.675 [info] Locator Venv took 17.486µs
+2025-02-26 09:58:55.675 [info] Locator VirtualEnv took 864.027µs
+2025-02-26 09:58:55.675 [info] Locator VirtualEnvWrapper took 29.947µs
+2025-02-26 09:58:55.675 [info] Locator GlobalVirtualEnvs took 7.621488ms
+2025-02-26 09:58:55.675 [info] Locator Locators took 9.110501635s
+2025-02-26 09:58:55.675 [info] Locator Path took 1.018249435s
+2025-02-26 09:58:55.675 [info] Locator Workspaces took 54.81689ms
+2025-02-26 09:58:55.675 [info] Refresh completed in 9110ms

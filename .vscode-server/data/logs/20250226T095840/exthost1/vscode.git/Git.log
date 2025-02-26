@@ -1,0 +1,78 @@
+2025-02-26 09:58:47.915 [info] [main] Log level: Info
+2025-02-26 09:58:47.915 [info] [main] Validating found git in: "git"
+2025-02-26 09:58:47.915 [info] [main] Using git "2.34.1" from "git"
+2025-02-26 09:58:47.915 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-26 09:58:47.980 [info] > git rev-parse --show-toplevel [270ms]
+2025-02-26 09:58:48.250 [info] > git rev-parse --git-dir --git-common-dir [232ms]
+2025-02-26 09:58:48.272 [info] [Model][openRepository] Opened repository: /home/anhken
+2025-02-26 09:58:48.293 [info] > git config --get commit.template [5ms]
+2025-02-26 09:58:48.305 [info] > git rev-parse --show-toplevel [14ms]
+2025-02-26 09:58:48.314 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-26 09:58:48.319 [info] [Model][openRepository] Opened repository: /home/anhken/odoo-fitdnu
+2025-02-26 09:58:48.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2025-02-26 09:58:48.380 [info] > git rev-parse --show-toplevel [49ms]
+2025-02-26 09:58:48.381 [info] > git config --get commit.template [53ms]
+2025-02-26 09:58:48.385 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-02-26 09:58:48.400 [info] > git rev-parse --show-toplevel [16ms]
+2025-02-26 09:58:48.414 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-26 09:58:48.425 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-26 09:58:48.432 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-26 09:58:48.441 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-26 09:58:48.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [142ms]
+2025-02-26 09:58:48.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-26 09:58:48.546 [info] > git rev-parse refs/remotes/origin/cntt15_03 [3ms]
+2025-02-26 09:58:48.590 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2025-02-26 09:58:48.711 [info] > git show --textconv :addons/quan_ly_van_ban/__manifest__.py [38ms]
+2025-02-26 09:58:48.715 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/addons/quan_ly_van_ban/__manifest__.py [38ms]
+2025-02-26 09:58:48.729 [info] > git hash-object -t tree /dev/null [11ms]
+2025-02-26 09:58:48.730 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/addons/quan_ly_van_ban/__manifest__.py.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Faddons%2Fquan_ly_van_ban%2F__manifest__.py%22%2C%22ref%22%3A%22%22%7D
+2025-02-26 09:58:48.733 [info] > git hash-object -t tree /dev/null [19ms]
+2025-02-26 09:58:48.733 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/addons/quan_ly_van_ban/__manifest__.py.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Faddons%2Fquan_ly_van_ban%2F__manifest__.py%22%2C%22ref%22%3A%22%22%7D
+2025-02-26 09:58:48.850 [info] > git blame --root --incremental 39a5fa15487188a9446f55bd93d0b4289cd2f1d4 -- /home/anhken/odoo-fitdnu/addons/quan_ly_van_ban/__manifest__.py [15ms]
+2025-02-26 09:58:48.851 [info] fatal: no such path addons/quan_ly_van_ban/__manifest__.py in 39a5fa15487188a9446f55bd93d0b4289cd2f1d4
+2025-02-26 09:58:49.021 [info] > git check-ignore -v -z --stdin [139ms]
+2025-02-26 09:58:49.462 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-26 09:58:53.311 [info] > git status -z -uall [4755ms]
+2025-02-26 09:58:53.400 [info] > git status -z -uall [5042ms]
+2025-02-26 09:58:53.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [18ms]
+2025-02-26 09:58:53.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2025-02-26 09:58:53.457 [info] > git config --get --local branch.cntt15_03.vscode-merge-base [54ms]
+2025-02-26 09:58:53.461 [info] > git config --get commit.template [61ms]
+2025-02-26 09:58:53.475 [info] > git config --get --local branch.main.vscode-merge-base [18ms]
+2025-02-26 09:58:53.475 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-26 09:58:53.488 [info] > git config --get commit.template [44ms]
+2025-02-26 09:58:53.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/cntt15_03 refs/remotes/origin/cntt15_03 [45ms]
+2025-02-26 09:58:53.547 [info] > git merge-base refs/heads/cntt15_03 refs/remotes/origin/cntt15_03 [37ms]
+2025-02-26 09:58:53.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [46ms]
+2025-02-26 09:58:53.560 [info] > git reflog main --grep-reflog=branch: Created from *. [72ms]
+2025-02-26 09:58:53.565 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-26 09:58:53.566 [info] > git diff --name-status -z --diff-filter=ADMR 39a5fa15487188a9446f55bd93d0b4289cd2f1d4...refs/remotes/origin/cntt15_03 [16ms]
+2025-02-26 09:58:53.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2025-02-26 09:58:53.583 [info] > git rev-parse refs/remotes/origin/cntt15_03 [18ms]
+2025-02-26 09:58:53.635 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [73ms]
+2025-02-26 09:58:53.635 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-26 09:58:53.635 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-26 09:58:53.636 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+2025-02-26 09:58:53.637 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-26 09:58:53.854 [info] > git status -z -uall [237ms]
+2025-02-26 09:58:53.890 [info] > git status -z -uall [320ms]
+2025-02-26 09:59:08.351 [info] > git config --get commit.template [4ms]
+2025-02-26 09:59:08.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-26 09:59:08.359 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-26 09:59:08.507 [info] > git status -z -uall [153ms]
+2025-02-26 09:59:19.130 [info] > git config --get commit.template [9ms]
+2025-02-26 09:59:19.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-26 09:59:19.148 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-26 09:59:19.352 [info] > git status -z -uall [218ms]
+2025-02-26 09:59:24.360 [info] > git config --get commit.template [1ms]
+2025-02-26 09:59:24.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-26 09:59:24.371 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-26 09:59:24.513 [info] > git status -z -uall [147ms]
+2025-02-26 09:59:29.539 [info] > git config --get commit.template [10ms]
+2025-02-26 09:59:29.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-26 09:59:29.548 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-26 09:59:29.691 [info] > git status -z -uall [148ms]
+2025-02-26 09:59:34.714 [info] > git config --get commit.template [8ms]
+2025-02-26 09:59:34.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-26 09:59:34.725 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-26 09:59:34.870 [info] > git status -z -uall [150ms]
