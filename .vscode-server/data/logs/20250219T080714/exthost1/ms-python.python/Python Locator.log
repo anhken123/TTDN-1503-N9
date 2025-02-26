@@ -1,0 +1,34 @@
+2025-02-19 09:12:52.119 [info] Starting Python Locator /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python-env-tools/bin/pet server
+2025-02-19 09:12:53.126 [info] Discovered env: /home/anhken/venv/bin/python
+2025-02-19 09:12:53.136 [info] Discovered env: /bin/python3
+2025-02-19 09:12:53.137 [info] Discovered env: /usr/bin/python3
+2025-02-19 09:12:57.180 [info] Locator Conda took 6.281302105s
+2025-02-19 09:12:57.180 [info] Locator Homebrew took 16.017926ms
+2025-02-19 09:12:57.180 [info] Locator LinuxGlobal took 244.224606ms
+2025-02-19 09:12:57.180 [info] Locator PipEnv took 23.476µs
+2025-02-19 09:12:57.180 [info] Locator Poetry took 43.319362ms
+2025-02-19 09:12:57.180 [info] Locator PyEnv took 73.515799ms
+2025-02-19 09:12:57.180 [info] Locator Venv took 22.742µs
+2025-02-19 09:12:57.180 [info] Locator VirtualEnv took 31.441µs
+2025-02-19 09:12:57.180 [info] Locator VirtualEnvWrapper took 72.419µs
+2025-02-19 09:12:57.180 [info] Locator GlobalVirtualEnvs took 5.797651ms
+2025-02-19 09:12:57.180 [info] Locator Locators took 6.28847035s
+2025-02-19 09:12:57.180 [info] Locator Path took 468.282937ms
+2025-02-19 09:12:57.180 [info] Locator Workspaces took 179.230419ms
+2025-02-19 09:12:57.180 [info] Refresh completed in 6289ms
+2025-02-19 09:12:57.295 [info] Resolved Python Environment /home/anhken/venv/bin/python
+2025-02-19 09:14:17.670 [info] Resolved Python Environment /home/anhken/venv/bin/python
+2025-02-19 09:17:54.167 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:17:54.193 [info] Resolved Python Environment /home/anhken/venv/bin/python
+2025-02-19 09:17:59.640 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:59:01.120 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:59:01.177 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:59:03.186 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:03:49.389 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:04:46.229 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:06:52.772 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:11:43.373 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/venv/bin/python
+2025-02-19 10:11:43.490 [info] Env ("/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", prefix: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv", version: "3.10.12.final.0", is64_bit: true, symlinks: Some(["/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3.10"]) } and reported as None
+2025-02-19 10:11:43.490 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:17:03.503 [info] Env ("/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", prefix: "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv", version: "3.10.12.final.0", is64_bit: true, symlinks: Some(["/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3", "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python3.10"]) } and reported as None
+2025-02-19 10:17:03.505 [info] Resolved Python Environment /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python

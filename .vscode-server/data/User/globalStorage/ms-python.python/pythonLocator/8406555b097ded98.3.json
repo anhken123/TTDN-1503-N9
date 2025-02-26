@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python",
+    "prefix": "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv",
+    "version": "3.10.12.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python",
+      "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python3",
+      "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python3.10"
+    ]
+  },
+  "symlinks": []
+}

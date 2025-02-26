@@ -1,0 +1,38 @@
+2025-02-19 09:12:52.054 [info] Experiment 'pythonaa' is active
+2025-02-19 09:12:52.054 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-19 09:12:52.054 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-19 09:12:52.054 [info] Experiment 'pythonTestAdapter' is active
+2025-02-19 09:12:52.077 [info] Native locator: Refresh started
+2025-02-19 09:12:52.296 [info] Native locator: Refresh started
+2025-02-19 09:12:53.117 [info] > pyenv which python
+2025-02-19 09:12:53.117 [info] cwd: .
+2025-02-19 09:12:57.189 [info] Native locator: Refresh finished in 5104 ms
+2025-02-19 09:12:57.300 [info] Python interpreter path: ./venv/bin/python
+2025-02-19 09:12:57.450 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-19 09:12:57.450 [info] shell: bash
+2025-02-19 09:12:57.496 [info] Prepending environment variable PATH in collection with /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash:/home/anhken/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-19 09:12:57.496 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-19 09:12:57.497 [info] Send text to terminal: /bin/python3 /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2025-02-19 09:12:59.250 [info] Starting Pylance language server.
+2025-02-19 09:15:18.190 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/setup.cfg
+2025-02-19 09:17:59.786 [info] Discover tests for workspace name: anhken - uri: /home/anhken
+2025-02-19 09:17:59.858 [info] Python interpreter path: ./odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:17:59.877 [info] > . ./odoo-fitdnu/odoo-fitdnu/venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-19 09:17:59.877 [info] shell: bash
+2025-02-19 09:17:59.920 [info] Setting environment variable VIRTUAL_ENV in collection to /home/anhken/odoo-fitdnu/odoo-fitdnu/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-19 09:17:59.920 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-19 09:17:59.920 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-19 09:17:59.920 [info] Prepending environment variable PATH in collection with /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash:/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-19 09:18:52.814 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/numpy/f2py/setup.cfg
+2025-02-19 09:21:25.569 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/pandas/pyproject.toml
+2025-02-19 09:42:13.938 [info] Discover tests for workspace name: anhken - uri: /home/anhken/.vscode-server/extensions/.be3243c4-0d47-4094-8a46-55a3e62b3965/python_files/pyproject.toml
+2025-02-19 09:58:13.807 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/setup.cfg
+2025-02-19 09:59:03.188 [info] Discover tests for workspace name: anhken - uri: /home/anhken
+2025-02-19 09:59:03.188 [info] Python interpreter path: ./odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 09:59:03.287 [info] Prepending environment variable PATH in collection with /home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash:/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-02-19 09:59:03.287 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-02-19 09:59:53.778 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/numpy/f2py/setup.cfg
+2025-02-19 10:04:37.422 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/pandas/pyproject.toml
+2025-02-19 10:10:51.426 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/setup.cfg
+2025-02-19 10:12:48.017 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/venv/lib/python3.10/site-packages/numpy/f2py/setup.cfg
+2025-02-19 10:15:33.855 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/venv/lib/python3.10/site-packages/pandas/pyproject.toml

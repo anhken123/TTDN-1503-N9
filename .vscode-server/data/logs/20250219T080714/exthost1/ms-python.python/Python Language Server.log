@@ -1,0 +1,235 @@
+2025-02-19 09:12:58.422 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-19 09:12:59.219 [info] [Info  - 9:12:59 AM] (21494) Server root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-19 09:12:59.224 [info] [Info  - 9:12:59 AM] (21494) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-19 09:12:59.224 [info] [Info  - 9:12:59 AM] (21494) Starting service instance "anhken"
+2025-02-19 09:12:59.296 [info] [Info  - 9:12:59 AM] (21494) Setting environmentName for service "anhken": "3.10.12 (venv venv)"
+2025-02-19 09:12:59.300 [info] [Info  - 9:12:59 AM] (21494) Setting pythonPath for service "anhken": "/home/anhken/venv/bin/python"
+2025-02-19 09:12:59.301 [info] [Info  - 9:12:59 AM] (21494) No include entries specified; assuming /home/anhken
+2025-02-19 09:12:59.302 [info] [Info  - 9:12:59 AM] (21494) Auto-excluding **/node_modules
+2025-02-19 09:12:59.303 [info] [Info  - 9:12:59 AM] (21494) Auto-excluding **/__pycache__
+2025-02-19 09:12:59.303 [info] [Info  - 9:12:59 AM] (21494) Auto-excluding **/.*
+2025-02-19 09:12:59.335 [info] [Info  - 9:12:59 AM] (21494) Assuming Python version 3.10.12.final.0
+2025-02-19 09:13:00.496 [info] [Info  - 9:13:00 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:13:00.496 [info] [Info  - 9:13:00 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:13:01.137 [info] [Info  - 9:13:01 AM] (21494) Found 4902 source files
+2025-02-19 09:13:01.217 [info] [Info  - 9:13:01 AM] (21494) Background analysis(1) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-19 09:13:01.217 [info] [Info  - 9:13:01 AM] (21494) Background analysis(1) started
+2025-02-19 09:13:02.134 [info] [Info  - 9:13:02 AM] (21494) Indexer background runner(2) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-19 09:13:02.134 [info] [Info  - 9:13:02 AM] (21494) Indexing(2) started
+2025-02-19 09:13:02.759 [info] [Info  - 9:13:02 AM] (21494) scanned(2) 9 files over 1 exec env
+2025-02-19 09:13:03.980 [info] [Info  - 9:13:03 AM] (21494) indexed(2) 9 files over 1 exec env
+2025-02-19 09:13:04.003 [info] [Info  - 9:13:04 AM] (21494) Indexing finished(2).
+2025-02-19 09:13:12.224 [info] [Warn  - 9:13:12 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:15:34.275 [info] [Info  - 9:15:34 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:15:34.275 [info] [Info  - 9:15:34 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:15:35.191 [info] [Info  - 9:15:35 AM] (21494) Found 9804 source files
+2025-02-19 09:15:43.982 [info] [Warn  - 9:15:43 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:18:02.947 [info] [Info  - 9:18:02 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:18:02.948 [info] [Info  - 9:18:02 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:18:02.951 [info] [Info  - 9:18:02 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:18:03.711 [info] [Info  - 9:18:03 AM] (21494) Found 9804 source files
+2025-02-19 09:18:03.790 [info] [Info  - 9:18:03 AM] (21494) Setting environmentName for service "anhken": "3.10.12 (venv venv)"
+2025-02-19 09:18:03.793 [info] [Info  - 9:18:03 AM] (21494) Setting pythonPath for service "anhken": "/home/anhken/odoo-fitdnu/odoo-fitdnu/venv/bin/python"
+2025-02-19 09:18:03.794 [info] [Info  - 9:18:03 AM] (21494) No include entries specified; assuming /home/anhken
+2025-02-19 09:18:03.795 [info] [Info  - 9:18:03 AM] (21494) Auto-excluding **/node_modules
+2025-02-19 09:18:03.795 [info] [Info  - 9:18:03 AM] (21494) Auto-excluding **/__pycache__
+2025-02-19 09:18:03.795 [info] [Info  - 9:18:03 AM] (21494) Auto-excluding **/.*
+2025-02-19 09:18:03.834 [info] [Info  - 9:18:03 AM] (21494) Assuming Python version 3.10.12.final.0
+2025-02-19 09:18:05.527 [info] [Info  - 9:18:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:18:05.528 [info] [Info  - 9:18:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:18:05.528 [info] [Info  - 9:18:05 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:18:06.689 [info] [Info  - 9:18:06 AM] (21494) Found 9804 source files
+2025-02-19 09:18:08.594 [info] [Info  - 9:18:08 AM] (21494) Indexer background runner(3) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-19 09:18:08.596 [info] [Info  - 9:18:08 AM] (21494) Indexing(3) started
+2025-02-19 09:18:09.063 [info] [Info  - 9:18:09 AM] (21494) scanned(3) 12 files over 1 exec env
+2025-02-19 09:18:08.305 [info] [Info  - 9:18:08 AM] (21494) indexed(3) 12 files over 1 exec env
+2025-02-19 09:18:08.328 [info] [Info  - 9:18:08 AM] (21494) Indexing finished(3).
+2025-02-19 09:18:12.949 [info] [Warn  - 9:18:12 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:18:46.586 [info] [Info  - 9:18:46 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:18:46.587 [info] [Info  - 9:18:46 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:18:46.587 [info] [Info  - 9:18:46 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:18:47.358 [info] [Info  - 9:18:47 AM] (21494) Found 9804 source files
+2025-02-19 09:18:54.669 [info] [Info  - 9:18:54 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:18:54.670 [info] [Info  - 9:18:54 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:18:54.670 [info] [Info  - 9:18:54 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:18:55.470 [info] [Info  - 9:18:55 AM] (21494) Found 9804 source files
+2025-02-19 09:19:01.635 [info] [Info  - 9:19:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:19:01.636 [info] [Info  - 9:19:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:19:01.636 [info] [Info  - 9:19:01 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:19:02.315 [info] [Info  - 9:19:02 AM] (21494) Found 9804 source files
+2025-02-19 09:19:05.663 [info] [Info  - 9:19:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:19:05.664 [info] [Info  - 9:19:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:19:05.664 [info] [Info  - 9:19:05 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:19:06.348 [info] [Info  - 9:19:06 AM] (21494) Found 9804 source files
+2025-02-19 09:19:10.268 [info] [Info  - 9:19:10 AM] (21494) Indexer background runner(4) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (refresh)
+2025-02-19 09:19:10.269 [info] [Info  - 9:19:10 AM] (21494) Indexing(4) started
+2025-02-19 09:19:11.392 [info] [Info  - 9:19:11 AM] (21494) scanned(4) 47 files over 1 exec env
+2025-02-19 09:19:12.780 [info] [Info  - 9:19:12 AM] (21494) indexed(4) 47 files over 1 exec env
+2025-02-19 09:19:12.850 [info] [Info  - 9:19:12 AM] (21494) Indexing finished(4).
+2025-02-19 09:19:12.880 [info] [Warn  - 9:19:12 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:19:16.232 [info] [Info  - 9:19:16 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:19:16.233 [info] [Info  - 9:19:16 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:19:16.234 [info] [Info  - 9:19:16 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:19:16.947 [info] [Info  - 9:19:16 AM] (21494) Found 9804 source files
+2025-02-19 09:19:19.331 [info] [Info  - 9:19:19 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:19:19.332 [info] [Info  - 9:19:19 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:19:19.332 [info] [Info  - 9:19:19 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:19:20.077 [info] [Info  - 9:19:20 AM] (21494) Found 9804 source files
+2025-02-19 09:19:23.661 [info] [Info  - 9:19:23 AM] (21494) Indexer background runner(5) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (refresh)
+2025-02-19 09:19:23.662 [info] [Info  - 9:19:23 AM] (21494) Indexing(5) started
+2025-02-19 09:19:24.512 [info] [Info  - 9:19:24 AM] (21494) scanned(5) 51 files over 1 exec env
+2025-02-19 09:19:25.070 [info] [Info  - 9:19:25 AM] (21494) indexed(5) 51 files over 1 exec env
+2025-02-19 09:19:25.123 [info] [Info  - 9:19:25 AM] (21494) Indexing finished(5).
+2025-02-19 09:19:26.731 [info] [Warn  - 9:19:26 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:21:25.806 [info] [Info  - 9:21:25 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:21:25.806 [info] [Info  - 9:21:25 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:21:25.806 [info] [Info  - 9:21:25 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:21:26.590 [info] [Info  - 9:21:26 AM] (21494) Found 9804 source files
+2025-02-19 09:21:40.670 [info] [Info  - 9:21:40 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:21:40.671 [info] [Info  - 9:21:40 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:21:40.671 [info] [Info  - 9:21:40 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:21:41.387 [info] [Info  - 9:21:41 AM] (21494) Found 9804 source files
+2025-02-19 09:21:44.165 [info] [Info  - 9:21:44 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:21:44.166 [info] [Info  - 9:21:44 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:21:44.166 [info] [Info  - 9:21:44 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:21:44.850 [info] [Info  - 9:21:44 AM] (21494) Found 9804 source files
+2025-02-19 09:21:47.240 [info] [Info  - 9:21:47 AM] (21494) Indexer background runner(6) root directory: file:///home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (refresh)
+2025-02-19 09:21:47.240 [info] [Info  - 9:21:47 AM] (21494) Indexing(6) started
+2025-02-19 09:21:47.916 [info] [Info  - 9:21:47 AM] (21494) scanned(6) 70 files over 1 exec env
+2025-02-19 09:21:49.586 [info] [Info  - 9:21:49 AM] (21494) indexed(6) 70 files over 1 exec env
+2025-02-19 09:21:49.658 [info] [Info  - 9:21:49 AM] (21494) Indexing finished(6).
+2025-02-19 09:21:50.854 [info] [Warn  - 9:21:50 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:58:24.013 [info] [Info  - 9:58:24 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:58:24.015 [info] [Info  - 9:58:24 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:58:24.015 [info] [Info  - 9:58:24 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:58:25.633 [info] [Info  - 9:58:25 AM] (21494) Found 14706 source files
+2025-02-19 09:58:42.611 [info] [Info  - 9:58:42 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:58:42.612 [info] [Info  - 9:58:42 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:58:42.612 [info] [Info  - 9:58:42 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:58:44.366 [info] [Info  - 9:58:44 AM] (21494) Found 14706 source files
+2025-02-19 09:58:56.418 [info] [Info  - 9:58:56 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:58:56.419 [info] [Info  - 9:58:56 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:58:56.419 [info] [Info  - 9:58:56 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:58:57.835 [info] [Info  - 9:58:57 AM] (21494) Found 14706 source files
+2025-02-19 09:59:03.278 [info] [Info  - 9:59:03 AM] (21494) Setting environmentName for service "anhken": "3.10.12 (venv venv)"
+2025-02-19 09:59:03.291 [info] [Info  - 9:59:03 AM] (21494) Setting pythonPath for service "anhken": "/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python"
+2025-02-19 09:59:03.291 [info] [Info  - 9:59:03 AM] (21494) No include entries specified; assuming /home/anhken
+2025-02-19 09:59:03.292 [info] [Info  - 9:59:03 AM] (21494) Auto-excluding **/node_modules
+2025-02-19 09:59:03.292 [info] [Info  - 9:59:03 AM] (21494) Auto-excluding **/__pycache__
+2025-02-19 09:59:03.292 [info] [Info  - 9:59:03 AM] (21494) Auto-excluding **/.*
+2025-02-19 09:59:03.319 [info] Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory
+
+2025-02-19 09:59:03.345 [info] Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory
+
+2025-02-19 09:59:06.026 [info] [Info  - 9:59:06 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:06.026 [info] [Info  - 9:59:06 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:06.026 [info] [Info  - 9:59:06 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:59:06.026 [info] [Info  - 9:59:06 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:59:07.313 [info] [Info  - 9:59:07 AM] (21494) Found 14706 source files
+2025-02-19 09:59:07.740 [info] Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory
+
+2025-02-19 09:59:07.801 [info] [Warn  - 9:59:07 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:59:15.475 [info] [Info  - 9:59:15 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:15.479 [info] [Info  - 9:59:15 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:15.480 [info] [Info  - 9:59:15 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:59:15.480 [info] [Info  - 9:59:15 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:59:16.630 [info] [Info  - 9:59:16 AM] (21494) Found 14706 source files
+2025-02-19 09:59:23.955 [info] [Warn  - 9:59:23 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 09:59:52.336 [info] [Info  - 9:59:52 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:52.337 [info] [Info  - 9:59:52 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 09:59:52.339 [info] [Info  - 9:59:52 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 09:59:52.339 [info] [Info  - 9:59:52 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 09:59:53.608 [info] [Info  - 9:59:53 AM] (21494) Found 14706 source files
+2025-02-19 10:00:01.758 [info] [Info  - 10:00:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:01.759 [info] [Info  - 10:00:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:01.760 [info] [Info  - 10:00:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:00:01.760 [info] [Info  - 10:00:01 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:00:02.836 [info] [Info  - 10:00:02 AM] (21494) Found 14706 source files
+2025-02-19 10:00:12.139 [info] [Info  - 10:00:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:12.140 [info] [Info  - 10:00:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:12.141 [info] [Info  - 10:00:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:00:12.141 [info] [Info  - 10:00:12 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:00:12.007 [info] [Info  - 10:00:12 AM] (21494) Found 14706 source files
+2025-02-19 10:00:20.019 [info] [Info  - 10:00:20 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:20.020 [info] [Info  - 10:00:20 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:00:20.021 [info] [Info  - 10:00:20 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:00:20.021 [info] [Info  - 10:00:20 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:00:21.195 [info] [Info  - 10:00:21 AM] (21494) Found 14706 source files
+2025-02-19 10:00:28.492 [info] [Warn  - 10:00:28 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:04:38.452 [info] [Info  - 10:04:38 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:04:38.454 [info] [Info  - 10:04:38 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:04:38.455 [info] [Info  - 10:04:38 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:04:38.455 [info] [Info  - 10:04:38 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:04:39.818 [info] [Info  - 10:04:39 AM] (21494) Found 14706 source files
+2025-02-19 10:05:01.523 [info] [Info  - 10:05:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:01.524 [info] [Info  - 10:05:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:01.529 [info] [Info  - 10:05:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:05:01.529 [info] [Info  - 10:05:01 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:05:02.750 [info] [Info  - 10:05:02 AM] (21494) Found 14706 source files
+2025-02-19 10:05:05.388 [info] [Info  - 10:05:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:05.392 [info] [Info  - 10:05:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:05.394 [info] [Info  - 10:05:05 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:05:05.394 [info] [Info  - 10:05:05 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:05:06.566 [info] [Info  - 10:05:06 AM] (21494) Found 14706 source files
+2025-02-19 10:05:12.128 [info] [Info  - 10:05:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:12.128 [info] [Info  - 10:05:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:12.129 [info] [Info  - 10:05:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:05:12.129 [info] [Info  - 10:05:12 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:05:13.258 [info] [Info  - 10:05:13 AM] (21494) Found 14706 source files
+2025-02-19 10:05:13.730 [info] [Warn  - 10:05:13 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:05:17.200 [info] [Info  - 10:05:17 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:17.201 [info] [Info  - 10:05:17 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/odoo-fitdnu/venv
+2025-02-19 10:05:17.202 [info] [Info  - 10:05:17 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:05:17.202 [info] [Info  - 10:05:17 AM] (21494) Auto-excluding /home/anhken/venv
+2025-02-19 10:05:18.363 [info] [Info  - 10:05:18 AM] (21494) Found 14706 source files
+2025-02-19 10:05:25.480 [info] [Warn  - 10:05:25 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:08:36.036 [info] [Info  - 10:08:36 AM] (21494) Found 2 source files
+2025-02-19 10:09:16.460 [info] [Info  - 10:09:16 AM] (21494) Found 2 source files
+2025-02-19 10:10:44.098 [info] [Info  - 10:10:44 AM] (21494) Found 2662 source files
+2025-02-19 10:10:51.325 [info] [Info  - 10:10:51 AM] (21494) Found 4902 source files
+2025-02-19 10:10:56.567 [info] [Info  - 10:10:56 AM] (21494) Found 4902 source files
+2025-02-19 10:11:01.970 [info] [Info  - 10:11:01 AM] (21494) Found 4902 source files
+2025-02-19 10:11:07.198 [info] [Info  - 10:11:07 AM] (21494) Found 4902 source files
+2025-02-19 10:11:13.676 [info] [Warn  - 10:11:13 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:11:47.395 [info] [Info  - 10:11:47 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:11:47.794 [info] [Info  - 10:11:47 AM] (21494) Found 4902 source files
+2025-02-19 10:11:50.597 [info] [Info  - 10:11:50 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:11:50.985 [info] [Info  - 10:11:50 AM] (21494) Found 4902 source files
+2025-02-19 10:11:58.113 [info] [Warn  - 10:11:58 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:12:44.117 [info] [Info  - 10:12:44 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:44.584 [info] [Info  - 10:12:44 AM] (21494) Found 4902 source files
+2025-02-19 10:12:47.100 [info] [Info  - 10:12:47 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:47.487 [info] [Info  - 10:12:47 AM] (21494) Found 4902 source files
+2025-02-19 10:12:48.918 [info] [Info  - 10:12:48 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:49.285 [info] [Info  - 10:12:49 AM] (21494) Found 4902 source files
+2025-02-19 10:12:53.261 [info] [Info  - 10:12:53 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:53.633 [info] [Info  - 10:12:53 AM] (21494) Found 4902 source files
+2025-02-19 10:12:55.802 [info] [Info  - 10:12:55 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:57.886 [info] [Info  - 10:12:57 AM] (21494) Found 4902 source files
+2025-02-19 10:12:58.365 [info] [Warn  - 10:12:58 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:12:59.512 [info] [Info  - 10:12:59 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:12:59.870 [info] [Info  - 10:12:59 AM] (21494) Found 4902 source files
+2025-02-19 10:13:01.075 [info] [Info  - 10:13:01 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:13:01.433 [info] [Info  - 10:13:01 AM] (21494) Found 4902 source files
+2025-02-19 10:13:10.127 [info] [Warn  - 10:13:10 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:13:12.382 [info] [Info  - 10:13:12 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:13:12.759 [info] [Info  - 10:13:12 AM] (21494) Found 4902 source files
+2025-02-19 10:13:14.321 [info] [Info  - 10:13:14 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:13:14.676 [info] [Info  - 10:13:14 AM] (21494) Found 4902 source files
+2025-02-19 10:13:19.656 [info] [Warn  - 10:13:19 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:15:33.960 [info] [Info  - 10:15:33 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:15:34.503 [info] [Info  - 10:15:34 AM] (21494) Found 4902 source files
+2025-02-19 10:15:41.321 [info] [Info  - 10:15:41 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:15:41.691 [info] [Info  - 10:15:41 AM] (21494) Found 4902 source files
+2025-02-19 10:15:43.065 [info] [Info  - 10:15:43 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:15:43.405 [info] [Info  - 10:15:43 AM] (21494) Found 4902 source files
+2025-02-19 10:15:45.469 [info] [Info  - 10:15:45 AM] (21494) Auto-excluding /home/anhken/odoo-fitdnu/venv
+2025-02-19 10:15:45.866 [info] [Info  - 10:15:45 AM] (21494) Found 4902 source files
+2025-02-19 10:15:51.724 [info] [Warn  - 10:15:51 AM] (21494) Workspace indexing has hit its upper limit: 2000 files
+2025-02-19 10:15:58.569 [info] [Warn  - 10:15:58 AM] (21494) Workspace indexing has hit its upper limit: 2000 files

@@ -1,0 +1,21 @@
+2025-02-19 10:35:10.512 [info] 
+
+
+
+
+2025-02-19 10:35:10.535 [info] Extension host agent started.
+2025-02-19 10:35:10.680 [info] Marked extension as removed ms-python.debugpy-2025.0.1
+2025-02-19 10:35:10.681 [info] Marked extension as removed ms-python.vscode-pylance-2025.2.1
+2025-02-19 10:35:10.683 [info] Deleted marked for removal extension from disk ms-python.debugpy /home/anhken/.vscode-server/extensions/ms-python.debugpy-2025.0.1
+2025-02-19 10:35:10.683 [info] Deleted marked for removal extension from disk ms-python.vscode-pylance /home/anhken/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1
+2025-02-19 10:35:10.860 [info] [127.0.0.1][fc2fbeaa][ManagementConnection] New connection established.
+2025-02-19 10:35:11.010 [info] [127.0.0.1][0b5ac0b5][ExtensionHostConnection] New connection established.
+2025-02-19 10:35:11.146 [info] [127.0.0.1][0b5ac0b5][ExtensionHostConnection] <661> Launched Extension Host Process.
+2025-02-19 10:35:13.594 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET AggregateError [ETIMEDOUT]: 
+2025-02-19 12:30:19.677 [info] [127.0.0.1][fc2fbeaa][ManagementConnection] The client has reconnected.
+2025-02-19 12:30:20.924 [info] [127.0.0.1][0b5ac0b5][ExtensionHostConnection] The client has reconnected.
+2025-02-19 12:30:45.688 [warning] No ptyHost heartbeat after 6 seconds
+2025-02-19 12:33:17.143 [info] [127.0.0.1][0b5ac0b5][ExtensionHostConnection] The client has reconnected.
+2025-02-19 12:33:17.295 [info] [127.0.0.1][fc2fbeaa][ManagementConnection] The client has reconnected.
+2025-02-19 12:34:07.211 [info] [127.0.0.1][fc2fbeaa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-19 12:34:07.324 [info] [127.0.0.1][0b5ac0b5][ExtensionHostConnection] <661> Extension Host Process exited with code: 0, signal: null.

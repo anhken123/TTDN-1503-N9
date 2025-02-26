@@ -1,0 +1,159 @@
+2025-02-19 10:35:17.575 [info] [main] Log level: Info
+2025-02-19 10:35:17.576 [info] [main] Validating found git in: "git"
+2025-02-19 10:35:17.576 [info] [main] Using git "2.34.1" from "git"
+2025-02-19 10:35:17.576 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-19 10:35:17.576 [info] > git rev-parse --show-toplevel [183ms]
+2025-02-19 10:35:17.576 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.580 [info] > git rev-parse --show-toplevel [15ms]
+2025-02-19 10:35:17.601 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-02-19 10:35:17.621 [info] [Model][openRepository] Opened repository: /home/anhken/odoo-fitdnu
+2025-02-19 10:35:17.644 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-19 10:35:17.644 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.665 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-19 10:35:17.665 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.666 [info] > git config --get commit.template [32ms]
+2025-02-19 10:35:17.677 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-19 10:35:17.678 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.691 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-19 10:35:17.691 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.706 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-19 10:35:17.706 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.715 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-19 10:35:17.715 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-19 10:35:17.718 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-19 10:35:17.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [60ms]
+2025-02-19 10:35:17.727 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:35:17.729 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:35:17.763 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [25ms]
+2025-02-19 10:35:17.997 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/addons/nhan_su/models/nhan_vien.py [16ms]
+2025-02-19 10:35:18.004 [info] > git cat-file -s 5582868a6061b7576c65bfb6e8b563fc355889ca [5ms]
+2025-02-19 10:35:18.028 [info] > git show --textconv :addons/nhan_su/models/nhan_vien.py [51ms]
+2025-02-19 10:35:18.228 [info] > git check-ignore -v -z --stdin [45ms]
+2025-02-19 10:35:18.806 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo-bin.py [12ms]
+2025-02-19 10:35:18.819 [info] > git cat-file -s 49f74975d42573abeee33d0b5fe70a9d86546669 [6ms]
+2025-02-19 10:35:18.820 [info] > git show --textconv :odoo-bin.py [28ms]
+2025-02-19 10:35:19.119 [info] > git status -z -uall [1386ms]
+2025-02-19 10:35:19.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [11ms]
+2025-02-19 10:35:19.153 [info] > git config --get commit.template [12ms]
+2025-02-19 10:35:19.154 [info] > git config --get --local branch.cntt15_03.vscode-merge-base [1ms]
+2025-02-19 10:35:19.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/cntt15_03 refs/remotes/origin/cntt15_03 [18ms]
+2025-02-19 10:35:19.187 [info] > git merge-base refs/heads/cntt15_03 refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:35:19.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [19ms]
+2025-02-19 10:35:19.195 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:35:19.196 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:35:19.254 [info] > git diff --name-status -z --diff-filter=ADMR 39a5fa15487188a9446f55bd93d0b4289cd2f1d4...refs/remotes/origin/cntt15_03 [63ms]
+2025-02-19 10:35:19.270 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2025-02-19 10:35:19.311 [info] > git show --textconv :odoo.conf [8ms]
+2025-02-19 10:35:19.334 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf [24ms]
+2025-02-19 10:35:19.342 [info] > git hash-object -t tree /dev/null [9ms]
+2025-02-19 10:35:19.342 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:35:19.345 [info] > git hash-object -t tree /dev/null [5ms]
+2025-02-19 10:35:19.345 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:35:19.418 [info] > git status -z -uall [202ms]
+2025-02-19 10:35:19.437 [info] > git blame --root --incremental 39a5fa15487188a9446f55bd93d0b4289cd2f1d4 -- /home/anhken/odoo-fitdnu/odoo.conf [20ms]
+2025-02-19 10:35:19.437 [info] fatal: no such path odoo.conf in 39a5fa15487188a9446f55bd93d0b4289cd2f1d4
+2025-02-19 10:38:06.632 [info] > git check-ignore -v -z --stdin [48ms]
+2025-02-19 10:38:10.128 [info] > git show --textconv :addons/nhan_su/models/nhan_vien.py [7ms]
+2025-02-19 10:38:10.135 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/addons/nhan_su/models/nhan_vien.py [11ms]
+2025-02-19 10:38:10.139 [info] > git cat-file -s 5582868a6061b7576c65bfb6e8b563fc355889ca [1ms]
+2025-02-19 10:38:10.678 [info] > git check-ignore -v -z --stdin [83ms]
+2025-02-19 10:38:11.880 [info] > git show --textconv :odoo.conf [8ms]
+2025-02-19 10:38:11.884 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:38:11.888 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf [11ms]
+2025-02-19 10:38:11.889 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:38:12.336 [info] > git check-ignore -v -z --stdin [32ms]
+2025-02-19 10:42:09.495 [info] > git config --get commit.template [6ms]
+2025-02-19 10:42:09.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [4ms]
+2025-02-19 10:42:09.502 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:42:09.504 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:42:09.514 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-19 10:42:09.639 [info] > git status -z -uall [131ms]
+2025-02-19 10:42:09.647 [info] > git check-ignore -v -z --stdin [13ms]
+2025-02-19 10:43:15.955 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/COPYRIGHT [63ms]
+2025-02-19 10:43:16.685 [info] > git cat-file -s b0f9743d204484b1080d339ec55a638b1cde32dc [719ms]
+2025-02-19 10:43:16.686 [info] > git show --textconv :COPYRIGHT [809ms]
+2025-02-19 10:43:18.102 [info] > git show --textconv :odoo.conf [9ms]
+2025-02-19 10:43:18.103 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:43:18.117 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf [17ms]
+2025-02-19 10:43:18.118 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:44:04.504 [info] > git config --get commit.template [4ms]
+2025-02-19 10:44:04.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:44:04.516 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:44:04.517 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:44:04.535 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-19 10:44:04.932 [info] > git status -z -uall [411ms]
+2025-02-19 10:44:09.946 [info] > git config --get commit.template [4ms]
+2025-02-19 10:44:09.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [1ms]
+2025-02-19 10:44:09.949 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:44:09.950 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:44:09.960 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-19 10:44:10.081 [info] > git status -z -uall [126ms]
+2025-02-19 10:44:28.347 [info] > git config --get commit.template [4ms]
+2025-02-19 10:44:28.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:44:28.356 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:44:28.356 [info] > git rev-parse refs/remotes/origin/cntt15_03 [0ms]
+2025-02-19 10:44:28.366 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-19 10:44:28.552 [info] > git status -z -uall [192ms]
+2025-02-19 10:45:30.937 [info] > git config --get commit.template [4ms]
+2025-02-19 10:45:30.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:45:30.941 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:45:30.942 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:45:30.955 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-19 10:45:31.070 [info] > git status -z -uall [123ms]
+2025-02-19 10:45:36.094 [info] > git config --get commit.template [10ms]
+2025-02-19 10:45:36.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [4ms]
+2025-02-19 10:45:36.101 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:45:36.103 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:45:36.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-19 10:45:36.230 [info] > git status -z -uall [124ms]
+2025-02-19 10:46:28.655 [info] > git config --get commit.template [2ms]
+2025-02-19 10:46:28.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:46:28.663 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:46:28.665 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:46:28.677 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-19 10:46:28.794 [info] > git status -z -uall [125ms]
+2025-02-19 10:46:36.981 [info] > git config --get commit.template [5ms]
+2025-02-19 10:46:36.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [1ms]
+2025-02-19 10:46:36.984 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:46:36.985 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:46:36.993 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-19 10:46:37.103 [info] > git status -z -uall [115ms]
+2025-02-19 10:47:08.761 [info] > git config --get commit.template [5ms]
+2025-02-19 10:47:08.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [1ms]
+2025-02-19 10:47:08.765 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:47:08.767 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:47:08.779 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-19 10:47:08.902 [info] > git status -z -uall [131ms]
+2025-02-19 10:49:39.629 [info] > git config --get commit.template [9ms]
+2025-02-19 10:49:39.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [3ms]
+2025-02-19 10:49:39.638 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:49:39.640 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:49:39.653 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-19 10:49:39.762 [info] > git status -z -uall [117ms]
+2025-02-19 10:50:13.166 [info] > git config --get commit.template [5ms]
+2025-02-19 10:50:13.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:50:13.170 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:50:13.171 [info] > git rev-parse refs/remotes/origin/cntt15_03 [1ms]
+2025-02-19 10:50:13.184 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-19 10:50:13.325 [info] > git status -z -uall [149ms]
+2025-02-19 10:50:33.606 [info] > git config --get commit.template [6ms]
+2025-02-19 10:50:33.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cntt15_03 refs/remotes/cntt15_03 [2ms]
+2025-02-19 10:50:33.613 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/anhken/odoo-fitdnu/.git/refs/remotes/origin/cntt15_03'
+2025-02-19 10:50:33.616 [info] > git rev-parse refs/remotes/origin/cntt15_03 [2ms]
+2025-02-19 10:50:33.698 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [71ms]
+2025-02-19 10:50:33.756 [info] > git status -z -uall [136ms]
+2025-02-19 10:51:00.436 [info] > git show --textconv :odoo-bin.py [12ms]
+2025-02-19 10:51:00.438 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo-bin.py [11ms]
+2025-02-19 10:51:00.443 [info] > git cat-file -s 49f74975d42573abeee33d0b5fe70a9d86546669 [1ms]
+2025-02-19 10:51:02.609 [info] > git show --textconv :odoo.conf [9ms]
+2025-02-19 10:51:02.612 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:51:02.614 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf [10ms]
+2025-02-19 10:51:02.615 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:51:08.262 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf.template [8ms]
+2025-02-19 10:51:08.269 [info] > git cat-file -s bde225c47f9c793905bac78dbe84428a569bacb4 [1ms]
+2025-02-19 10:51:08.271 [info] > git show --textconv :odoo.conf.template [20ms]
+2025-02-19 10:51:09.694 [info] > git show --textconv :odoo.conf [10ms]
+2025-02-19 10:51:09.695 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:51:09.699 [info] > git ls-files --stage -- /home/anhken/odoo-fitdnu/odoo.conf [8ms]
+2025-02-19 10:51:09.699 [warning] [GitFileSystemProvider][stat] File not found - git:/home/anhken/odoo-fitdnu/odoo.conf.git?%7B%22path%22%3A%22%2Fhome%2Fanhken%2Fodoo-fitdnu%2Fodoo.conf%22%2C%22ref%22%3A%22%22%7D
+2025-02-19 10:57:56.681 [info] > git check-ignore -v -z --stdin [63ms]

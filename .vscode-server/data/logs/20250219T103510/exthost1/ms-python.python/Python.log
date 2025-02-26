@@ -1,0 +1,44 @@
+2025-02-19 10:35:17.558 [info] Experiment 'pythonaa' is active
+2025-02-19 10:35:17.558 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-19 10:35:17.558 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-19 10:35:17.558 [info] Experiment 'pythonTestAdapter' is active
+2025-02-19 10:35:17.558 [info] Native locator: Refresh started
+2025-02-19 10:35:17.558 [info] Native locator: Refresh started
+2025-02-19 10:35:17.600 [info] > pyenv which python
+2025-02-19 10:35:17.600 [info] cwd: .
+2025-02-19 10:35:17.745 [info] Python interpreter path: ./odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python
+2025-02-19 10:35:17.830 [error] Failed to start language server: Launching server using command /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python failed. Error: spawn /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python ENOENT
+2025-02-19 10:35:17.843 [error] [
+  'Failed to start language server, Class name = l, completed in 67ms, has a falsy return value, Arg 1: <Uri:/home/anhken>, Arg 2: {"id":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","sysPrefix":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv","envType":"Unknown","envName":"","envPath":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","path":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","architecture":3,"sysVersion":"","version":{"raw":"3.10.12","major":3,"minor":10,"patch":12,"build":[],"prerelease":[]},"displayName":"Python 3.10.12","detailedDisplayName":"Python 3.10.12"}, Arg 3: {"documentSelector":[{"scheme":"file","language":"python"},{"scheme":"untitled","language":"python"},{"scheme":"vscode-notebook","language":"python"},{"scheme":"vscode-notebook-cell","language":"python"},{"scheme":"vscode-interactive-input","language":"python"}],"workspaceFolder":{"uri":{"$mid":1,"fsPath":"/home/anhken","external":"file:///home/anhken","path":"/home/anhken","scheme":"file"},"name":"anhken","index":0},"synchronize":{"configurationSection":["python"]},"outputChannel":{"name":"Python Language Server","logLevel":3},"revealOutputChannelOn":4,"initializationOptions":{"markupKindPreferred":"markdown","completion":{"resolveEagerly":false,"disableSnippets":true},"diagnostics":{"enable":true,"didOpen":true,"didSave":true,"didChange":true},"hover":{"disable":{"keyword":{"all":true}}},"workspace":{"extraPaths":["/home/anhken"],"environmentPath":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","symbols":{"maxSymbols":0}}},"middleware":{"serviceContainer":{"container":{"options":{"autoBindInjectable":false,"defaultScope":"Transient","skipBaseClassChecks":true},"id":0,"_bindingDictionary":{"_map":{}},"_snapshots":[],"_middleware":null,"_activations":{"_map":{}},"_deactivations":{"_map":{}},"parent":null,"_metadataReader":{},"_moduleActivationStore":{"_map":{}}}},"lastCaptured":{},"nextWindow":0,"eventCount":0,"workspace":{},"connectedPromise":{"scope":null,"_resolved":false,"_rejected":false,"_promise":{}},"notebooks":{},"eventName":"JEDI_LANGUAGE_SERVER.REQUEST"}}, Return Value: undefined',
+  [Error: Launching Jedi language server using python failed, see output.
+  	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+]
+2025-02-19 10:35:17.844 [error] [
+  'Starting language server, Class name = m, completed in 73ms, has a falsy return value, , Return Value: undefined',
+  [Error: Launching Jedi language server using python failed, see output.
+  	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+]
+2025-02-19 10:35:17.845 [error] [
+  'Failed to start language server, Class name = m, completed in 101ms, has a falsy return value, Arg 1: <Uri:/home/anhken>, Arg 2: {"id":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","sysPrefix":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv","envType":"Unknown","envName":"","envPath":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","path":"/home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python","architecture":3,"sysVersion":"","version":{"raw":"3.10.12","major":3,"minor":10,"patch":12,"build":[],"prerelease":[]},"displayName":"Python 3.10.12","detailedDisplayName":"Python 3.10.12"}, Return Value: undefined',
+  [Error: Launching Jedi language server using python failed, see output.
+  	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+]
+2025-02-19 10:35:17.846 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 946ms, has a falsy return value, Arg 1: <Uri:/home/anhken/odoo-fitdnu/addons/nhan_su/models/nhan_vien.py>, Arg 2: {"started":1739936115938}, Return Value: undefined',
+  [Error: Launching Jedi language server using python failed, see output.
+  	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+]
+2025-02-19 10:35:17.846 [error] Failure during activation. [Error: Launching Jedi language server using python failed, see output.
+	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+2025-02-19 10:35:17.846 [error] sendStartupTelemetry() failed. [Error: Launching Jedi language server using python failed, see output.
+	at l.start (/home/anhken/.vscode-server/extensions/ms-python.python-2025.0.0/out/client/extension.js:2:22183)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+2025-02-19 10:35:21.516 [info] Native locator: Refresh finished in 5402 ms
+2025-02-19 10:44:05.837 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/setup.cfg
+2025-02-19 10:46:30.915 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/numpy/f2py/setup.cfg
+2025-02-19 10:49:32.627 [info] Discover tests for workspace name: anhken - uri: /home/anhken/odoo-fitdnu/odoo-fitdnu/venv/lib/python3.10/site-packages/pandas/pyproject.toml

@@ -1,0 +1,2 @@
+2025-02-26 08:06:36.513 [info] [Error - 8:06:36 AM] Python Jedi client: couldn't create connection to server.
+2025-02-26 08:06:36.513 [info] Launching server using command /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python failed. Error: spawn /home/anhken/odoo-fitdnu/odoo-fitdnu/odoo-fitdnu/venv/bin/python ENOENT

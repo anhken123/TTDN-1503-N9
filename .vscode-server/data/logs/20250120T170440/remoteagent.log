@@ -1,0 +1,13 @@
+2025-01-20 17:04:40.386 [info] 
+
+
+
+
+2025-01-20 17:04:40.403 [info] Extension host agent started.
+2025-01-20 17:04:40.465 [info] Started initializing default profile extensions in extensions installation folder. file:///home/anhken/.vscode-server/extensions
+2025-01-20 17:04:40.485 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/anhken/.vscode-server/extensions
+2025-01-20 17:04:40.607 [info] [127.0.0.1][0853c4a7][ManagementConnection] New connection established.
+2025-01-20 17:04:41.010 [info] [127.0.0.1][64d9a56c][ExtensionHostConnection] New connection established.
+2025-01-20 17:04:41.017 [info] [127.0.0.1][64d9a56c][ExtensionHostConnection] <782> Launched Extension Host Process.
+2025-01-20 17:05:09.761 [info] [127.0.0.1][0853c4a7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-20 17:05:09.881 [info] [127.0.0.1][64d9a56c][ExtensionHostConnection] <782> Extension Host Process exited with code: 0, signal: null.
